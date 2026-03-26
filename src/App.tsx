@@ -27,7 +27,6 @@ function App() {
 
   function checkWeather(){
 
-    console.log("hdghjbshj")
     if(!cityName){
       return;
     }
@@ -58,7 +57,10 @@ function App() {
     })
     .finally(function(){
       setLoading(false);
+      console.log("ihbdshud");
     });
+
+
   }
 
   return (
