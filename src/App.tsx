@@ -26,6 +26,7 @@ function App() {
   const [darkMode, setDarkMode] = useState<boolean>(false);
 
   function checkWeather(){
+    console.log("Test PR change");
 
     if(!cityName){
       return;
@@ -108,4 +109,4 @@ function App() {
 
 }
 
-export default App;
+export default App;// Test PR change
