@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #efefef;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.searching {
+  width: 70%;
+  padding: 8px;
+}
+
+.searchButton {
+  width: 30%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.weather-response {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
